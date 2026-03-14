@@ -74,6 +74,12 @@ yarn-error.log*
 # ---------- Jupyter / Notebooks ----------
 .ipynb_checkpoints
 
+
+# Gunicorn runtime files
+*.ctl
+*.sock
+*.pid
+
 # ---------- Misc / Binaries / Logs ----------
 *.log
 *.sqlite3
